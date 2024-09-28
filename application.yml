@@ -48,6 +48,8 @@ management:
   zipkin:
     tracing:
       endpoint: http://tracing-server:9411/api/v2/spans
+      sampling:
+        probability: 1
   endpoint:
     metrics:
       enabled: true
@@ -61,9 +63,7 @@ management:
     export:
       prometheus:
         enabled: true
-  tracing:
-    sampling:
-      probability: 1
+
 
 # Chaos Engineering
 ---
