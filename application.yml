@@ -76,9 +76,8 @@ spring:
     url: jdbc:mysql://mysql-server:3306/petclinic?useSSL=false
     username: root
     password: petclinic
-    initialization-mode: always
   sql:
     init:
       schema-locations: classpath*:db/mysql/schema.sql
       data-locations: classpath*:db/mysql/data.sql
-      init: ALWAYS
+      mode: always
