@@ -26,7 +26,7 @@ spring:
   jpa:
     open-in-view: false
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
 
 # Spring Boot 1.5 makes actuator secure by default
 management.security.enabled: false
