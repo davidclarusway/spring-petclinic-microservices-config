@@ -73,7 +73,7 @@ spring:
     activate:
       on-profile: mysql
   datasource:
-    url: jdbc:mysql://mysql-server:3306/petclinic?useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://mysql-server:3306/petclinic?useSSL=false
     username: root
     password: petclinic
   sql:
